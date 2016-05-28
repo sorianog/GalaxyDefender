@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Web v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>WebPlayer:6</UnityBuildTarget>
     <UnityVersion>5.3.5f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -62,6 +60,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByTime.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_EvasiveManeuver.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_GameController.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_Mover.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_PlayerController.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_RandomRotator.cs" />
+    <Compile Include="Assets\Done\Done_Scripts\Done_WeaponController.cs" />
     <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
     <Compile Include="Assets\Scripts\DestroyByContact.cs" />
     <Compile Include="Assets\Scripts\DestroyByTime.cs" />
